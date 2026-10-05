@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rajvardhan Shewale | Data & AI Engineering Portfolio</title>
-  <meta name="description" content="Portfolio of Rajvardhan Shewale — Data Analyst, ML Engineer, and AI Systems Builder featuring Pharmacovigilance AI, Finance Analytics, Marketing Intelligence, and Multi-Agent Systems.">
+  <title>Rajvardhan Shewale | Data Analyst & Data Science Portfolio</title>
+  <meta name="description" content="Portfolio of Rajvardhan Shewale — Data Analyst, Data Scientist & AI practitioner showcasing Pharmacovigilance signal analysis, Banking RFM segmentation, Marketing funnel diagnostics, ML wellness prediction, and Multi-Agent research systems.">
   
   <!-- Google Fonts: Space Grotesk, Plus Jakarta Sans, JetBrains Mono -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -33,14 +33,14 @@
       --text-muted: #94a3b8;
       --text-dim: #64748b;
       
-      --accent-teal: #14b8a6;
-      --accent-teal-glow: rgba(20, 184, 166, 0.2);
-      --accent-cyan: #06b6d4;
-      --accent-blue: #3b82f6;
-      --accent-purple: #8b5cf6;
-      --accent-amber: #f59e0b;
-      --accent-emerald: #10b981;
-      --accent-rose: #f43f5e;
+      --accent-teal: #3fb8ab;
+      --accent-teal-glow: rgba(63, 184, 171, 0.15);
+      --accent-cyan: #4db8d4;
+      --accent-blue: #6396e8;
+      --accent-purple: #a07de8;
+      --accent-amber: #e8b44a;
+      --accent-emerald: #45c49e;
+      --accent-rose: #e8697e;
       
       --font-heading: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
       --font-body: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
@@ -68,6 +68,7 @@
 
     html {
       scroll-behavior: smooth;
+      scroll-padding-top: 80px;
       font-size: 16px;
     }
 
@@ -156,13 +157,13 @@
     }
 
     .btn-primary {
-      background: linear-gradient(135deg, #06b6d4 0%, #3b82f6 100%);
+      background: linear-gradient(135deg, #4db8d4 0%, #6396e8 100%);
       color: #ffffff;
-      box-shadow: 0 4px 14px rgba(6, 182, 212, 0.3);
+      box-shadow: 0 4px 14px rgba(77, 184, 212, 0.22);
     }
     .btn-primary:hover {
       transform: translateY(-2px);
-      box-shadow: 0 6px 20px rgba(6, 182, 212, 0.45);
+      box-shadow: 0 6px 20px rgba(77, 184, 212, 0.35);
     }
 
     .btn-secondary {
@@ -198,7 +199,7 @@
 
     .section-subtitle {
       font-family: var(--font-mono);
-      color: #38bdf8;
+      color: #6db8d8;
       font-size: 0.82rem;
       text-transform: uppercase;
       letter-spacing: 0.1em;
@@ -212,7 +213,7 @@
       display: inline-block;
       width: 12px;
       height: 2px;
-      background: #38bdf8;
+      background: #6db8d8;
     }
 
     .section-title {
@@ -263,7 +264,7 @@
       width: 38px;
       height: 38px;
       border-radius: 10px;
-      background: linear-gradient(135deg, #06b6d4, #3b82f6);
+      background: linear-gradient(135deg, #4db8d4, #6396e8);
       display: flex;
       align-items: center;
       justify-content: center;
@@ -271,7 +272,7 @@
       font-family: var(--font-heading);
       font-weight: 700;
       font-size: 1.1rem;
-      box-shadow: 0 0 15px rgba(6, 182, 212, 0.4);
+      box-shadow: 0 0 12px rgba(77, 184, 212, 0.25);
     }
 
     .brand-text {
@@ -318,7 +319,7 @@
       left: 0;
       right: 0;
       height: 2px;
-      background: #06b6d4;
+      background: #6db8d8;
       border-radius: 2px;
     }
 
@@ -382,7 +383,7 @@
       border-radius: 50%;
       background: #10b981;
       box-shadow: 0 0 10px #10b981;
-      animation: pulse 2s infinite;
+      animation: pulse 2.5s infinite;
     }
 
     @keyframes pulse {
@@ -401,7 +402,7 @@
     }
 
     .hero-title .gradient-text {
-      background: linear-gradient(135deg, #f1f5f9 0%, #38bdf8 50%, #2dd4bf 100%);
+      background: linear-gradient(135deg, #e2e8f0 0%, #6db8d8 50%, #65c4b0 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
@@ -445,7 +446,7 @@
       line-height: 1.2;
     }
     .stat-num span {
-      color: #38bdf8;
+      color: #6db8d8;
     }
 
     .stat-label {
@@ -605,8 +606,8 @@
       transition: var(--transition-fast);
     }
     .search-input:focus {
-      border-color: #38bdf8;
-      box-shadow: 0 0 12px rgba(56, 189, 248, 0.2);
+      border-color: #6db8d8;
+      box-shadow: 0 0 10px rgba(109, 184, 216, 0.15);
     }
 
     .pills-group {
@@ -632,11 +633,11 @@
       color: var(--text-main);
     }
     .filter-pill.active {
-      background: #06b6d4;
+      background: #4db8d4;
       color: #ffffff;
-      border-color: #06b6d4;
+      border-color: #4db8d4;
       font-weight: 600;
-      box-shadow: 0 2px 10px rgba(6, 182, 212, 0.3);
+      box-shadow: 0 2px 8px rgba(77, 184, 212, 0.2);
     }
 
     /* ==========================================================================
@@ -792,9 +793,9 @@
       background: rgba(255, 255, 255, 0.02);
     }
     .lab-tab.active {
-      color: #38bdf8;
+      color: #6db8d8;
       background: var(--bg-card);
-      border-bottom: 2px solid #38bdf8;
+      border-bottom: 2px solid #6db8d8;
     }
 
     .lab-content {
@@ -1046,7 +1047,7 @@
       outline: none;
     }
     .form-input:focus {
-      border-color: #38bdf8;
+      border-color: #6db8d8;
     }
 
     textarea.form-input {
@@ -1166,7 +1167,7 @@
         <div class="brand-avatar">RS</div>
         <div class="brand-text">
           <span class="brand-name">Rajvardhan Shewale</span>
-          <span class="brand-title">Data & AI Engineer</span>
+          <span class="brand-title">Data Analyst & Scientist</span>
         </div>
       </a>
 
@@ -1202,23 +1203,23 @@
       <div class="hero-content">
         <div class="hero-status">
           <span class="status-dot"></span>
-          <span>Available for Data Analyst & AI Engineering Roles</span>
+          <span>Open to Data Analyst, Data Science & AI Roles</span>
         </div>
 
         <h1 class="hero-title">
-          Architecting <span class="gradient-text">Data Pipelines, ML Models</span> & Multi-Agent AI Systems.
+          I analyze data, build <span class="gradient-text">ML models</span>, and create AI tools that solve real problems.
         </h1>
 
         <p class="hero-bio">
-          Data Analyst & AI Systems Developer specializing in full-stack analytical architectures — from processing 7.7M road accident records and building 8-page enterprise Power BI platforms to engineering automated pharmacovigilance signal detectors and multi-agent AI research chains.
+          I work with large, messy datasets — 7.7 million accident records, 50K bank transactions, 216K ad impressions — and find the patterns that matter. From customer segmentation and drug safety scoring to building AI research assistants, my projects focus on clear analysis and practical results.
         </p>
 
         <div class="hero-cta">
           <a href="#projects" class="btn btn-primary">
-            <i class="fas fa-layer-group"></i> Explore 6 Featured Repos
+            <i class="fas fa-layer-group"></i> Explore 6 Case Studies
           </a>
           <a href="#lab" class="btn btn-secondary">
-            <i class="fas fa-flask"></i> Launch Live Lab Simulators
+            <i class="fas fa-flask"></i> Try Live Analytics Lab
           </a>
         </div>
 
@@ -1230,7 +1231,7 @@
           </div>
           <div class="stat-item">
             <div class="stat-num">388K<span>+</span></div>
-            <div class="stat-label">FDA Signals Ranked</div>
+            <div class="stat-label">Drug-Event Pairs Scored</div>
           </div>
           <div class="stat-item">
             <div class="stat-num">50K<span>+</span></div>
@@ -1238,7 +1239,7 @@
           </div>
           <div class="stat-item">
             <div class="stat-num">8<span>-Page</span></div>
-            <div class="stat-label">Power BI BI System</div>
+            <div class="stat-label">Power BI Dashboard</div>
           </div>
         </div>
       </div>
@@ -1252,7 +1253,7 @@
               <span class="mac-dot yellow"></span>
               <span class="mac-dot green"></span>
             </div>
-            <span class="card-title-mini">system_architecture.pipeline</span>
+            <span class="card-title-mini">project_overview.summary</span>
           </div>
 
           <div class="architecture-preview">
@@ -1262,8 +1263,8 @@
                   <i class="fas fa-pills"></i>
                 </div>
                 <div>
-                  <div class="node-title">Adverse Event Signal Engine</div>
-                  <div class="node-desc">PRR Disproportionality + FDA API</div>
+                  <div class="node-title">Drug Safety Signal Analysis</div>
+                  <div class="node-desc">Scoring drug-reaction pairs via FDA data</div>
                 </div>
               </div>
               <div class="node-val">388K Pairs</div>
@@ -1275,8 +1276,8 @@
                   <i class="fas fa-chart-pie"></i>
                 </div>
                 <div>
-                  <div class="node-title">FinSight Financial Analytics</div>
-                  <div class="node-desc">RFM Segmentation + Power BI</div>
+                  <div class="node-title">Banking Customer Analytics</div>
+                  <div class="node-desc">Customer segmentation + Power BI dashboards</div>
                 </div>
               </div>
               <div class="node-val">50.1K Rows</div>
@@ -1288,8 +1289,8 @@
                   <i class="fas fa-robot"></i>
                 </div>
                 <div>
-                  <div class="node-title">Research Desk Multi-Agent</div>
-                  <div class="node-desc">Search → Scrape → Write → Review</div>
+                  <div class="node-title">AI Research Assistant</div>
+                  <div class="node-desc">4 AI agents that search, read, write & review</div>
                 </div>
               </div>
               <div class="node-val">4 Agents</div>
@@ -1301,8 +1302,8 @@
                   <i class="fas fa-car-crash"></i>
                 </div>
                 <div>
-                  <div class="node-title">US Accidents Big Data EDA</div>
-                  <div class="node-desc">49 States Geo-Temporal Analysis</div>
+                  <div class="node-title">US Accidents EDA</div>
+                  <div class="node-desc">Patterns across 49 states, weather & time</div>
                 </div>
               </div>
               <div class="node-val">7.7M Rows</div>
@@ -1318,10 +1319,10 @@
        ========================================================================== -->
   <section id="projects" class="container" style="padding-top: 2rem;">
     <div class="section-header">
-      <div class="section-subtitle">Comprehensive Repository Portfolio</div>
-      <h2 class="section-title">Production Projects & Technical Case Studies</h2>
+      <div class="section-subtitle">Projects</div>
+      <h2 class="section-title">What I've Built</h2>
       <p class="section-desc">
-        Explore 6 production-grade repositories spanning Healthcare AI, Financial Analytics, Marketing Intelligence, Predictive ML, Multi-Agent Systems, and Geo-Temporal Big Data.
+        Six projects across healthcare, finance, marketing, machine learning, AI agents, and large-scale data exploration — each with real data, real analysis, and real results.
       </p>
     </div>
 
@@ -1330,21 +1331,21 @@
       <div class="search-row">
         <div class="search-input-wrapper">
           <i class="fas fa-search"></i>
-          <input type="text" id="projectSearch" class="search-input" placeholder="Search by tech stack, domain, algorithm, or dataset (e.g. PRR, Power BI, FastAPI, 7.7M)...">
+          <input type="text" id="projectSearch" class="search-input" placeholder="Search projects (e.g. Power BI, Python, FastAPI, pharmacovigilance, 7.7M)...">
         </div>
         <div style="display: flex; gap: 0.5rem; align-items: center; color: var(--text-dim); font-size: 0.8rem; font-family: var(--font-mono);">
-          <span>Showing <strong id="visibleCount" style="color:#38bdf8;">6</strong> of 6 Repos</span>
+          <span>Showing <strong id="visibleCount" style="color:#6db8d8;">6</strong> of 6 projects</span>
         </div>
       </div>
 
       <div class="pills-group" id="domainFilters">
-        <button class="filter-pill active" data-filter="all">All Domains</button>
-        <button class="filter-pill" data-filter="healthcare">Healthcare & Pharma AI</button>
-        <button class="filter-pill" data-filter="finance">Financial Analytics</button>
-        <button class="filter-pill" data-filter="marketing">Digital Marketing</button>
-        <button class="filter-pill" data-filter="ml">Predictive ML</button>
-        <button class="filter-pill" data-filter="ai">Multi-Agent AI</button>
-        <button class="filter-pill" data-filter="bigdata">Big Data EDA</button>
+        <button class="filter-pill active" data-filter="all">All</button>
+        <button class="filter-pill" data-filter="healthcare">Healthcare</button>
+        <button class="filter-pill" data-filter="finance">Finance</button>
+        <button class="filter-pill" data-filter="marketing">Marketing</button>
+        <button class="filter-pill" data-filter="ml">Machine Learning</button>
+        <button class="filter-pill" data-filter="ai">AI Agents</button>
+        <button class="filter-pill" data-filter="bigdata">EDA</button>
       </div>
     </div>
 
@@ -1360,9 +1361,9 @@
           </div>
 
           <h3 class="project-title">Adverse Event Ranking System (AERS)</h3>
-          <div class="project-subtitle">Automated Pharmacovigilance Signal Detection & Analyst Decision Workflow</div>
+          <div class="project-subtitle">Drug safety signal scoring with analyst review workflow</div>
           <p class="project-summary">
-            mimics FDA disproportionality logic by processing 4M+ raw FAERS report records, scoring 388K+ drug-reaction pairs on novelty (live openFDA REST API label check), severity, and PRR, backed by a stateful MySQL audit trail interface.
+            Processes 4M+ FDA adverse event reports and scores 388K+ drug-reaction pairs to find potential safety issues. Each pair is scored on whether the reaction is already known (checked live via the FDA API), how severe it is, and how often it's reported. Analysts can then confirm, dismiss, or escalate each signal through a Streamlit dashboard.
           </p>
 
           <div class="card-metrics">
@@ -1412,9 +1413,9 @@
           </div>
 
           <h3 class="project-title">FinSight — Banking Analytics Platform</h3>
-          <div class="project-subtitle">50K Transaction Intelligence, Failure Auditing & RFM Customer Segmentation</div>
+          <div class="project-subtitle">Customer segmentation, failure analysis & 8-page Power BI dashboard</div>
           <p class="project-summary">
-            Multi-layer financial intelligence architecture built on 50,069 bank transactions and 5,000 customers. Integrates a Python RFM engine with an 8-page Power BI drill-through system, dynamic slicers, and explicit risk model diagnostics.
+            Analyzes 50,069 bank transactions and 5,000 customers. Uses Python to segment customers by recency, frequency, and spend (RFM), then visualizes everything in an 8-page Power BI dashboard where you can drill from executive KPIs down to individual transactions.
           </p>
 
           <div class="card-metrics">
@@ -1424,7 +1425,7 @@
             </div>
             <div class="metric-cell">
               <div class="metric-val">8.7×</div>
-              <div class="metric-lbl">Champion Spend Ratio</div>
+              <div class="metric-lbl">Top vs Bottom Spend</div>
             </div>
             <div class="metric-cell">
               <div class="metric-val">10.19%</div>
@@ -1464,9 +1465,9 @@
           </div>
 
           <h3 class="project-title">Meta Ad Performance Intelligence</h3>
-          <div class="project-subtitle">Full Funnel Ad Campaign Analytics & Conversion Leakage Diagnosis</div>
+          <div class="project-subtitle">Where the ad funnel leaks and which creatives actually convert</div>
           <p class="project-summary">
-            End-to-end advertising analytics engine built on a 4-table Star Schema (216K impressions, 25.4K clicks). Identified major bottom-of-funnel conversion friction (11.76% CTR vs 0.61% Purchase Rate) and creative video dominance.
+            Built on 216K ad impressions across Facebook and Instagram. The data shows strong click rates (11.76%) but only 0.61% of impressions lead to a purchase — meaning the ads grab attention but the conversion path is broken. Also found that video ads consistently outperform all other formats.
           </p>
 
           <div class="card-metrics">
@@ -1476,7 +1477,7 @@
             </div>
             <div class="metric-cell">
               <div class="metric-val">11.76%</div>
-              <div class="metric-lbl">Campaign CTR</div>
+              <div class="metric-lbl">Click-Through Rate</div>
             </div>
             <div class="metric-cell">
               <div class="metric-val">0.61%</div>
@@ -1511,14 +1512,14 @@
       <article class="project-card" data-domain="ml" data-search="mental health habit wellness prediction fastapi random forest scikit learn python pydantic">
         <div class="card-top">
           <div class="card-meta">
-            <span class="badge badge-emerald"><i class="fas fa-heart-pulse"></i> Predictive ML</span>
-            <span class="tag">FastAPI API</span>
+            <span class="badge badge-emerald"><i class="fas fa-heart-pulse"></i> Machine Learning</span>
+            <span class="tag">FastAPI + ML Model</span>
           </div>
 
           <h3 class="project-title">Mental Health Signal — Wellness Predictor</h3>
-          <div class="project-subtitle">Habit-Driven Machine Learning API & Remapped Signal Scale</div>
+          <div class="project-subtitle">Predicts student wellness from daily habits using a trained ML model</div>
           <p class="project-summary">
-            Student wellness score prediction service powered by a trained Scikit-learn RandomForestRegressor pipeline. Features ordinal stress encoding, log-scaled study hours, and a dataset-bound 1-10 display score remapping algorithm.
+            Takes inputs like screen time, sleep, study hours, and stress level, sends them to a FastAPI backend, and returns a wellness score on a simple 1–10 scale. The model is a Random Forest trained on 5,000 student survey responses, with the raw prediction rescaled so anyone can understand the result.
           </p>
 
           <div class="card-metrics">
@@ -1532,7 +1533,7 @@
             </div>
             <div class="metric-cell">
               <div class="metric-val">1–10</div>
-              <div class="metric-lbl">Signal Scale</div>
+              <div class="metric-lbl">Score Range</div>
             </div>
           </div>
 
@@ -1568,9 +1569,9 @@
           </div>
 
           <h3 class="project-title">Research Desk — Multi-Agent Assistant</h3>
-          <div class="project-subtitle">Autonomous 4-Stage Search, Scrape, Write & Critic Chain</div>
+          <div class="project-subtitle">Give it a topic, get a reviewed research report</div>
           <p class="project-summary">
-            Autonomous multi-agent research pipeline that splits complex research topics across 4 specialized AI roles. Features dynamic input truncation, token-rate-limit auto-retries (413/429), and dual Web/CLI deployment options.
+            Four AI agents work together: one searches the web, one reads the best source, one writes a report, and one reviews it for quality. Handles long content automatically by trimming inputs when they exceed model limits. Works as a web app or from the command line.
           </p>
 
           <div class="card-metrics">
@@ -1580,11 +1581,11 @@
             </div>
             <div class="metric-cell">
               <div class="metric-val">Auto</div>
-              <div class="metric-lbl">Retry Truncation</div>
+              <div class="metric-lbl">Handles Long Inputs</div>
             </div>
             <div class="metric-cell">
-              <div class="metric-val">Dual</div>
-              <div class="metric-lbl">Web / CLI Mode</div>
+              <div class="metric-val">2</div>
+              <div class="metric-lbl">Run Modes (Web + CLI)</div>
             </div>
           </div>
 
@@ -1615,14 +1616,14 @@
       <article class="project-card" data-domain="bigdata" data-search="us road accidents eda kaggle pandas plotly 7.7M California severity weather day night python">
         <div class="card-top">
           <div class="card-meta">
-            <span class="badge badge-rose"><i class="fas fa-car-crash"></i> Big Data EDA</span>
-            <span class="tag">7.7M Record Pipeline</span>
+            <span class="badge badge-rose"><i class="fas fa-car-crash"></i> Exploratory Analysis</span>
+            <span class="tag">7.7M Records</span>
           </div>
 
           <h3 class="project-title">US Road Accidents — 7.7M EDA Study</h3>
-          <div class="project-subtitle">Large-Scale Geo-Temporal, Weather & Severity Pattern Mining (2016–2023)</div>
+          <div class="project-subtitle">Finding patterns in 7.7 million US traffic accident records</div>
           <p class="project-summary">
-            Multi-stage exploratory data science pipeline across 7.7 million accident records spanning 49 states. Uncovered critical domain findings: 33% California concentration, 76% clear weather accident paradox, and day-vs-night severity inversion.
+            Analyzed 7.7 million accident records across 49 states to find when, where, and why accidents happen. Key findings: California alone accounts for 33% of all US accidents, most accidents happen in clear weather (because there are more cars on the road), and nighttime accidents are less frequent but more severe.
           </p>
 
           <div class="card-metrics">
@@ -1632,11 +1633,11 @@
             </div>
             <div class="metric-cell">
               <div class="metric-val">33%</div>
-              <div class="metric-lbl">CA Share</div>
+              <div class="metric-lbl">California's Share</div>
             </div>
             <div class="metric-cell">
               <div class="metric-val">76%</div>
-              <div class="metric-lbl">Clear Weather</div>
+              <div class="metric-lbl">In Clear Weather</div>
             </div>
           </div>
 
@@ -1672,29 +1673,29 @@
   <section id="lab" class="lab-section">
     <div class="container">
       <div class="section-header">
-        <div class="section-subtitle">Hands-On System Demonstrations</div>
-        <h2 class="section-title">Interactive AI & Data Analytics Lab</h2>
+        <div class="section-subtitle">Hands-On Analytical Demonstrations</div>
+        <h2 class="section-title">Interactive Data Science & ML Lab</h2>
         <p class="section-desc">
-          Test real mathematical scoring engines, predictive ML algorithms, and simulated multi-agent execution directly inside your browser.
+          Experiment with real scoring formulas, ML prediction logic, and simulated AI agent workflows — all running live in your browser.
         </p>
       </div>
 
       <div class="lab-container">
         <div class="lab-nav">
           <button class="lab-tab active" onclick="showLabPane('tab-aers', this)">
-            <i class="fas fa-pills"></i> 1. AERS Pharmacovigilance PRR Engine
+            <i class="fas fa-pills"></i> 1. Drug Safety Signal Scorer
           </button>
           <button class="lab-tab" onclick="showLabPane('tab-mental', this)">
-            <i class="fas fa-sliders-h"></i> 2. Mental Health ML Predictor
+            <i class="fas fa-sliders-h"></i> 2. Wellness Score Predictor
           </button>
           <button class="lab-tab" onclick="showLabPane('tab-finsight', this)">
-            <i class="fas fa-chart-line"></i> 3. FinSight BI Dynamic Switcher
+            <i class="fas fa-chart-line"></i> 3. FinSight Dashboard Demo
           </button>
           <button class="lab-tab" onclick="showLabPane('tab-research', this)">
-            <i class="fas fa-robot"></i> 4. Research Desk Agent Pipeline
+            <i class="fas fa-robot"></i> 4. AI Research Agent Demo
           </button>
           <button class="lab-tab" onclick="showLabPane('tab-accidents', this)">
-            <i class="fas fa-car-crash"></i> 5. US Accidents Pattern Matrix
+            <i class="fas fa-car-crash"></i> 5. US Accidents Explorer
           </button>
         </div>
 
@@ -1703,40 +1704,40 @@
           <!-- DEMO PANE 1: AERS Calculator -->
           <div id="tab-aers" class="demo-pane active">
             <div style="margin-bottom: 1.5rem;">
-              <h4 style="font-family: var(--font-heading); font-size: 1.2rem; color: #38bdf8;">
-                FDA FAERS Signal Scoring & Disproportionality (PRR) Engine
+              <h4 style="font-family: var(--font-heading); font-size: 1.2rem; color: #6db8d8;">
+                Drug Safety Signal Scorer
               </h4>
               <p style="font-size: 0.88rem; color: var(--text-muted); margin-top: 0.2rem;">
-                Computes Proportional Reporting Ratio (PRR) and weighted signal score (Novelty 40% + Severity 35% + Volume 25%).
+                Calculates how suspicious a drug-reaction pair is using the PRR formula, then combines it with novelty (40%), severity (35%), and report volume (25%) into a single risk score.
               </p>
             </div>
 
             <div class="input-grid">
               <div class="input-group">
-                <label>Co-occurring Reports (a): <span id="valAersA">42</span></label>
+                <label>Reports of this drug + this reaction: <span id="valAersA">42</span></label>
                 <input type="range" class="range-slider" min="5" max="500" value="42" id="sliderAersA" oninput="calcAersSignal()">
               </div>
               <div class="input-group">
-                <label>Total Drug Reports (a+b): <span id="valAersAb">450</span></label>
+                <label>Total reports for this drug: <span id="valAersAb">450</span></label>
                 <input type="range" class="range-slider" min="50" max="5000" value="450" id="sliderAersAb" oninput="calcAersSignal()">
               </div>
               <div class="input-group">
-                <label>Total Reaction Reports (a+c): <span id="valAersAc">1200</span></label>
+                <label>Total reports for this reaction: <span id="valAersAc">1200</span></label>
                 <input type="range" class="range-slider" min="100" max="10000" value="1200" id="sliderAersAc" oninput="calcAersSignal()">
               </div>
               <div class="input-group">
-                <label>FDA Official Label Status:</label>
+                <label>Is this reaction on the drug's official label?</label>
                 <select class="select-input" id="selectNovelty" onchange="calcAersSignal()">
-                  <option value="1.0">Unlisted Side Effect (Novelty = 10.0)</option>
-                  <option value="0.0">Known Listed Effect (Novelty = 0.0)</option>
+                  <option value="1.0">No — not listed (new finding)</option>
+                  <option value="0.0">Yes — already known side effect</option>
                 </select>
               </div>
               <div class="input-group">
-                <label>Avg Outcome Severity (2–10): <span id="valAersSev">8.2</span></label>
+                <label>Average outcome severity (2–10): <span id="valAersSev">8.2</span></label>
                 <input type="range" class="range-slider" min="2" max="10" step="0.1" value="8.2" id="sliderAersSev" oninput="calcAersSignal()">
               </div>
               <div class="input-group">
-                <label>Total Dataset Volume (N):</label>
+                <label>Total reports in dataset:</label>
                 <input type="text" class="select-input" value="1,300,000" readonly style="color: var(--text-dim);">
               </div>
             </div>
@@ -1748,23 +1749,23 @@
               </div>
               <div class="result-details">
                 <div class="detail-row">
-                  <span>Proportional Reporting Ratio (PRR):</span>
+                  <span>PRR (how much more often than expected):</span>
                   <span class="val" id="aersPrrVal" style="color:#2dd4bf;">101.11×</span>
                 </div>
                 <div class="detail-row">
-                  <span>Novelty Component Score (40% Weight):</span>
+                  <span>Novelty score (40% weight):</span>
                   <span class="val" id="aersNovVal">10.0 / 10</span>
                 </div>
                 <div class="detail-row">
-                  <span>Severity Component Score (35% Weight):</span>
+                  <span>Severity score (35% weight):</span>
                   <span class="val" id="aersSevVal">8.2 / 10</span>
                 </div>
                 <div class="detail-row">
-                  <span>Population Volume Score (25% Weight):</span>
+                  <span>Report volume score (25% weight):</span>
                   <span class="val" id="aersPopVal">4.35 / 10</span>
                 </div>
                 <div class="detail-row">
-                  <span>Analyst Audit Recommendation:</span>
+                  <span>Recommended action:</span>
                   <span class="val" id="aersRecVal" style="color: #fb7185;">Escalate to Medical Officer</span>
                 </div>
               </div>
@@ -1774,11 +1775,11 @@
           <!-- DEMO PANE 2: Mental Health Predictor -->
           <div id="tab-mental" class="demo-pane">
             <div style="margin-bottom: 1.5rem;">
-              <h4 style="font-family: var(--font-heading); font-size: 1.2rem; color: #38bdf8;">
-                Student Wellness Score Predictor (1–10 Scale Remapping)
+              <h4 style="font-family: var(--font-heading); font-size: 1.2rem; color: #6db8d8;">
+                Student Wellness Score Predictor
               </h4>
               <p style="font-size: 0.88rem; color: var(--text-muted); margin-top: 0.2rem;">
-                Applies the dataset-bound linear stretch algorithm trained on 5,000 survey rows.
+                Adjust the sliders to see how daily habits affect the predicted wellness score (1 = low, 10 = strong).
               </p>
             </div>
 
@@ -1821,7 +1822,7 @@
               </div>
               <div class="result-details">
                 <div class="detail-row">
-                  <span>Raw Model Regression Prediction:</span>
+                  <span>Raw model prediction:</span>
                   <span class="val" id="mhRawScore">6.82 (Range: 3.6 - 9.4)</span>
                 </div>
                 <div class="detail-row">
@@ -1829,11 +1830,11 @@
                   <span class="val" id="mhRiskFactor" style="color:#fbbf24;">Phone Unlocks Count</span>
                 </div>
                 <div class="detail-row">
-                  <span>Primary Positive Driver:</span>
+                  <span>Biggest positive factor:</span>
                   <span class="val" style="color:#34d399;">7.5 Hours Sleep + Exercise</span>
                 </div>
                 <div class="detail-row">
-                  <span>FastAPI Backend Schema:</span>
+                  <span>API endpoint:</span>
                   <span class="val">POST /predict (200 OK)</span>
                 </div>
               </div>
@@ -1843,26 +1844,26 @@
           <!-- DEMO PANE 3: FinSight Dynamic Slicer -->
           <div id="tab-finsight" class="demo-pane">
             <div style="margin-bottom: 1.5rem;">
-              <h4 style="font-family: var(--font-heading); font-size: 1.2rem; color: #38bdf8;">
-                FinSight 8-Page Power BI Architecture & Dynamic Metric Simulator
+              <h4 style="font-family: var(--font-heading); font-size: 1.2rem; color: #6db8d8;">
+                FinSight Dashboard — Page & Metric Switcher
               </h4>
               <p style="font-size: 0.88rem; color: var(--text-muted); margin-top: 0.2rem;">
-                Select a Power BI Page and Dynamic Slicer Metric to simulate DAX measure updates across 50,069 transactions.
+                Pick a dashboard page and metric to see how the KPIs update across 50,069 transactions.
               </p>
             </div>
 
             <div class="input-grid" style="grid-template-columns: 1fr 1fr;">
               <div class="input-group">
-                <label>Active Power BI Page:</label>
+                <label>Dashboard page:</label>
                 <select class="select-input" id="selectBiPage" onchange="updateBiSim()">
-                  <option value="p1">Page 1: Overview Analysis (Executive KPIs)</option>
-                  <option value="p3">Page 3: RFM Customer Intelligence (Segmentation)</option>
-                  <option value="p5">Page 5: Failure Intelligence (Audit & Fraud)</option>
-                  <option value="p7">Page 7: Channel Performance (ATM vs Net Banking)</option>
+                  <option value="p1">Overview — KPIs & Trends</option>
+                  <option value="p3">Customers — RFM Segments</option>
+                  <option value="p5">Failures — What's Going Wrong</option>
+                  <option value="p7">Channels — ATM vs Net Banking vs Mobile</option>
                 </select>
               </div>
               <div class="input-group">
-                <label>Dynamic DAX Metric Slicer:</label>
+                <label>Show metric:</label>
                 <select class="select-input" id="selectBiMetric" onchange="updateBiSim()">
                   <option value="amount">Total Amount (₹455.53M)</option>
                   <option value="fees">Total Fees (₹12.4M)</option>
@@ -1875,7 +1876,7 @@
               <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; text-align: center;">
                 <div style="background: rgba(255,255,255,0.03); padding: 1rem; border-radius: 8px;">
                   <div style="font-size: 0.72rem; color: var(--text-dim);" id="biKpi1Lbl">TOTAL AMOUNT</div>
-                  <div style="font-family: var(--font-heading); font-size: 1.4rem; font-weight:700; color:#38bdf8;" id="biKpi1Val">₹455.53M</div>
+                  <div style="font-family: var(--font-heading); font-size: 1.4rem; font-weight:700; color:#6db8d8;" id="biKpi1Val">₹455.53M</div>
                   <div style="font-size: 0.7rem; color:#34d399;">+43.00% YoY</div>
                 </div>
                 <div style="background: rgba(255,255,255,0.03); padding: 1rem; border-radius: 8px;">
@@ -1901,11 +1902,11 @@
           <div id="tab-research" class="demo-pane">
             <div style="margin-bottom: 1rem; display: flex; justify-content: space-between; align-items: center;">
               <div>
-                <h4 style="font-family: var(--font-heading); font-size: 1.2rem; color: #38bdf8;">
-                  Research Desk Multi-Agent Live Execution Terminal
+                <h4 style="font-family: var(--font-heading); font-size: 1.2rem; color: #6db8d8;">
+                  AI Research Agent — Live Demo
                 </h4>
                 <p style="font-size: 0.88rem; color: var(--text-muted); margin-top: 0.2rem;">
-                  Simulates the 4-step autonomous pipeline (Search -> Scrape -> Write -> Critic).
+                  Watch the 4 agents work: search the web, read a source, write a report, and review it.
                 </p>
               </div>
               <button class="btn btn-primary btn-sm" onclick="runAgentPipeline()">
@@ -1914,7 +1915,7 @@
             </div>
 
             <div class="terminal-box" id="agentTerminal">
-              <div class="term-line"><span class="term-prefix">[system]</span> Research Desk agent orchestrator initialized. Waiting for input topic...</div>
+              <div class="term-line"><span class="term-prefix">[system]</span> Research agent ready. Waiting for a topic...</div>
               <div class="term-line"><span class="term-prefix">[user]</span> Target Topic: "Impact of AI in Pharmacovigilance Signal Detection"</div>
             </div>
           </div>
@@ -1922,11 +1923,11 @@
           <!-- DEMO PANE 5: US Accidents Pattern Matrix -->
           <div id="tab-accidents" class="demo-pane">
             <div style="margin-bottom: 1.5rem;">
-              <h4 style="font-family: var(--font-heading); font-size: 1.2rem; color: #38bdf8;">
-                US Road Accidents 7.7 Million Record Pattern Explorer
+              <h4 style="font-family: var(--font-heading); font-size: 1.2rem; color: #6db8d8;">
+                US Accidents — Pattern Explorer
               </h4>
               <p style="font-size: 0.88rem; color: var(--text-muted); margin-top: 0.2rem;">
-                Filter findings across 49 states, weather conditions, and day/night temporal splits.
+                Filter by state, weather, and time of day to see how accident patterns change.
               </p>
             </div>
 
@@ -1960,15 +1961,15 @@
             <div class="calc-result-box">
               <div class="result-details" style="grid-column: 1 / -1;">
                 <div class="detail-row">
-                  <span>Filtered Record Count:</span>
-                  <span class="val" id="accFilterCount" style="color:#38bdf8;">1,900,000 Records</span>
+                  <span>Records matching filter:</span>
+                  <span class="val" id="accFilterCount" style="color:#6db8d8;">1,900,000 Records</span>
                 </div>
                 <div class="detail-row">
-                  <span>Dominant Severity Level:</span>
+                  <span>Most common severity:</span>
                   <span class="val" id="accSevDist">80% Severity 2 (Mild Disruption)</span>
                 </div>
                 <div class="detail-row">
-                  <span>Key Domain Finding:</span>
+                  <span>Key finding:</span>
                   <span class="val" id="accDomainInsight" style="color:#fbbf24;">Clear weather has highest volume, but nighttime & humidity amplify Severity 3 & 4.</span>
                 </div>
               </div>
@@ -1986,9 +1987,9 @@
   <section id="skills" class="skills-section container">
     <div class="section-header">
       <div class="section-subtitle">Core Capabilities</div>
-      <h2 class="section-title">Technical Mastery & Stack Architecture</h2>
+      <h2 class="section-title">Analytical & Technical Skill Set</h2>
       <p class="section-desc">
-        A structured taxonomy of analytical methods, statistical frameworks, data engineering tools, and AI technologies used across projects.
+        The statistical methods, visualization tools, ML frameworks, and AI technologies I use day-to-day across data analysis and science projects.
       </p>
     </div>
 
@@ -1996,7 +1997,7 @@
       <div class="skill-card">
         <div class="skill-icon-header">
           <i class="fas fa-database"></i>
-          <h3 class="skill-cat-title">Data Engineering & SQL</h3>
+          <h3 class="skill-cat-title">Databases & SQL</h3>
         </div>
         <div class="skill-tags-wrapper">
           <span class="tag">MySQL</span>
@@ -2093,9 +2094,9 @@
       <div class="contact-info">
         <div>
           <div class="section-subtitle">Let's Connect</div>
-          <h2 class="section-title">Interested in Collaborating?</h2>
+          <h2 class="section-title">Interested in Working Together?</h2>
           <p class="section-desc" style="margin-top: 0.5rem;">
-            Whether you have a question about my pharmacovigilance scoring pipeline, Power BI architectures, or data analysis roles, feel free to reach out.
+            Whether you're looking for a data analyst, have a question about any of my projects, or want to discuss data science and AI opportunities — I'd love to hear from you.
           </p>
         </div>
 
@@ -2170,7 +2171,7 @@
   <footer style="border-top: 1px solid var(--border-subtle); padding: 2rem 0; background: var(--bg-surface);">
     <div class="container" style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem;">
       <div style="font-size: 0.85rem; color: var(--text-dim); font-family: var(--font-mono);">
-        © 2026 Rajvardhan Shewale. Self-Contained Enterprise Data & AI Systems Portfolio.
+        © 2026 Rajvardhan Shewale. Data Analysis, Data Science & AI Portfolio.
       </div>
       <div style="display: flex; gap: 1rem; font-size: 0.85rem;">
         <a href="https://github.com/Precipitation-Rain" target="_blank" style="color: var(--text-muted); text-decoration: none;">GitHub</a>
@@ -2205,8 +2206,8 @@
     const PROJECT_DETAILS = {
       aers: {
         title: "Adverse Event Ranking System (AERS)",
-        subtitle: "Automated Pharmacovigilance Signal Detection & MySQL Audit Workflow",
-        problem: "Regulatory agencies process millions of FDA FAERS drug safety reports. Analysts require automated disproportionality analysis to separate known side effects from novel, severe drug safety signals without getting overwhelmed by raw volume.",
+        subtitle: "Drug safety signal scoring with analyst review workflow",
+        problem: "After a drug goes to market, the FDA collects millions of adverse event reports. The challenge is figuring out which drug-reaction pairs are genuinely concerning versus already known side effects — and doing it across hundreds of thousands of pairs without missing anything important.",
         architecture: `Raw FAERS Files (4M+ rows) 
    └─► Ingestion & Merging (1.3M+ deduplicated report rows)
         └─► OpenFDA REST API Label Enrichment (Novelty check)
@@ -2224,8 +2225,8 @@
       },
       finsight: {
         title: "FinSight — Banking Analytics Platform",
-        subtitle: "50K Transaction Intelligence, Failure Analysis & RFM Customer Segmentation",
-        problem: "Banking analytics teams struggle to link executive KPIs with granular transaction failures and customer monetary value across multiple channels.",
+        subtitle: "Customer segmentation, failure analysis & 8-page Power BI dashboard",
+        problem: "Banks track thousands of transactions daily but rarely connect the high-level numbers (total revenue, failure rates) to the individual customers and channels causing them. This project bridges that gap.",
         architecture: `50,069 Bank Transactions + 5,000 Customers
    └─► Python RFM Engine (Recency, Frequency, Monetary Quartile Binning)
         └─► 8-Page Power BI Drill-Through Model (Overview -> RFM -> Failure -> Channel)
@@ -2248,8 +2249,8 @@ rfm['M_score'] = pd.qcut(rfm['amount'], 4, labels=[1, 2, 3, 4])`,
       },
       metaad: {
         title: "Meta Ad Performance Dashboard",
-        subtitle: "Star Schema Marketing Intelligence & Conversion Leakage Diagnosis",
-        problem: "Marketing teams often spend heavy ad budgets on campaigns with high Click-Through Rates (CTR) without realizing where the conversion funnel leaks.",
+        subtitle: "Finding where the ad funnel leaks and which creatives convert",
+        problem: "Marketing teams celebrate high click rates without noticing that almost nobody actually buys. This analysis shows exactly where the funnel breaks down and which ad formats work best.",
         architecture: `Raw CSV Files (ad_events, ads, campaigns, users)
    └─► Python ETL & SQLAlchemy Loading into MySQL
         └─► Star Schema Data Model (1 Fact Table + 3 Dimension Tables)
@@ -2267,8 +2268,8 @@ GROUP BY a.ad_type, a.target_gender;`,
       },
       mental: {
         title: "Mental Health Signal — Student Wellness Predictor",
-        subtitle: "Habit-Driven Machine Learning API & Remapped Signal Scale",
-        problem: "Users find raw regression model scores hard to interpret without context of min/max values in the dataset.",
+        subtitle: "Predicts wellness from daily habits using a trained ML model",
+        problem: "A model that predicts a score of 6.42 means nothing to most people. This project solves that by rescaling the model's output to a simple 1–10 range with clear labels (Low / Medium / Strong).",
         architecture: `User Habit Inputs (Screen time, Sleep, Study, Stress)
    └─► FastAPI Endpoint (/predict)
         └─► Scikit-learn Pipeline (Log-Transform + One-Hot + RandomForestRegressor)
@@ -2290,14 +2291,14 @@ def predict_score(data: StudentHabitInput):
       },
       research: {
         title: "Research Desk — Multi-Agent Assistant",
-        subtitle: "Autonomous 4-Stage Search, Scrape, Write & Critic Review Pipeline",
-        problem: "Single-prompt LLMs hallucinate or lack recent web evidence when researching deep topics.",
+        subtitle: "Give it a topic, get a reviewed research report",
+        problem: "When you ask a single AI to research something, it often makes up facts or misses recent information. This system splits the job across 4 specialized agents so each one focuses on what it does best.",
         architecture: `Topic Input
    ├─► 1. Web Search Agent (Finds top relevant URLs & snippets)
    ├─► 2. Scrape Agent (Extracts full text content)
    ├─► 3. Writer Chain (Synthesizes comprehensive draft report)
    └─► 4. Critic Review Chain (Evaluates draft and provides feedback)`,
-        math: "Automatic Input Truncation: Handles 413/429 Token Rate Limits by dynamically splitting text chunks.",
+        math: "When content is too long for the AI model, the system automatically shortens it and retries — no manual intervention needed.",
         code: `# Agent Execution Pipeline (agents.py)
 from groq import Groq
 
@@ -2311,8 +2312,8 @@ def run_research_pipeline(topic):
       },
       accidents: {
         title: "US Road Accidents — 7.7M EDA Case Study",
-        subtitle: "Large-Scale Geo-Temporal, Weather & Severity Pattern Mining",
-        problem: "Analyzing 7.7 million traffic records across 49 US states requires memory optimization and handling skewed distributions.",
+        subtitle: "Finding patterns in 7.7M US traffic accident records",
+        problem: "With 7.7 million rows and 46 columns, you can't just eyeball this data. The analysis required careful memory management and systematic exploration to find the patterns that actually matter.",
         architecture: `7.7M Record Kaggle Dataset (~1.5 GB)
    └─► Memory Optimization (Dtype Specification + Null Auditing)
         └─► Geo-Temporal & Weather Pattern Mining (Plotly + Seaborn)
@@ -2410,19 +2411,19 @@ severity_by_hour = df.groupby(['Hour', 'Severity']).size().unstack()`,
       const recEl = document.getElementById('aersRecVal');
 
       if (finalScore >= 7.0) {
-        statusEl.innerText = "HIGH RISK SAFETY SIGNAL";
+        statusEl.innerText = "HIGH RISK — NEEDS ATTENTION";
         statusEl.style.color = "#fb7185";
         recEl.innerText = "🚨 Escalate to Medical Officer";
         recEl.style.color = "#fb7185";
       } else if (finalScore >= 4.5) {
-        statusEl.innerText = "MODERATE VALIDATED SIGNAL";
+        statusEl.innerText = "MODERATE — WORTH MONITORING";
         statusEl.style.color = "#fbbf24";
-        recEl.innerText = "✔ Confirm for Routine Monitoring";
+        recEl.innerText = "✔ Confirm and keep monitoring";
         recEl.style.color = "#fbbf24";
       } else {
-        statusEl.innerText = "LOW PRIORITY / DISMISSED";
+        statusEl.innerText = "LOW RISK — NO ACTION NEEDED";
         statusEl.style.color = "#34d399";
-        recEl.innerText = "✖ Dismiss as Non-Actionable";
+        recEl.innerText = "✖ Dismiss — not a concern";
         recEl.style.color = "#34d399";
       }
     }
@@ -2459,28 +2460,28 @@ severity_by_hour = df.groupby(['Hour', 'Severity']).size().unstack()`,
       const scoreCircle = document.querySelector('.result-score-circle');
 
       if (displayScore >= 7.5) {
-        lbl.innerText = "GREEN SIGNAL: STRONG WELLNESS";
+        lbl.innerText = "STRONG — HEALTHY HABITS";
         lbl.style.color = "#34d399";
         document.getElementById('mhDisplayScore').style.color = "#34d399";
       } else if (displayScore >= 4.5) {
-        lbl.innerText = "YELLOW SIGNAL: MODERATE WELLNESS";
+        lbl.innerText = "MODERATE — ROOM TO IMPROVE";
         lbl.style.color = "#fbbf24";
         document.getElementById('mhDisplayScore').style.color = "#fbbf24";
       } else {
-        lbl.innerText = "RED SIGNAL: LOW WELLNESS / HIGH STRESS";
+        lbl.innerText = "LOW — HIGH STRESS DETECTED";
         lbl.style.color = "#fb7185";
         document.getElementById('mhDisplayScore').style.color = "#fb7185";
       }
 
       // Risk factor detection
       if (unlocks > 100 || screen > 8.0) {
-        document.getElementById('mhRiskFactor').innerText = "Excessive Screen Time / Unlocks";
+        document.getElementById('mhRiskFactor').innerText = "Too much screen time";
       } else if (sleep < 6.0) {
-        document.getElementById('mhRiskFactor').innerText = "Sleep Deprivation (< 6 Hrs)";
+        document.getElementById('mhRiskFactor').innerText = "Not enough sleep (under 6 hrs)";
       } else if (stress >= 3) {
-        document.getElementById('mhRiskFactor').innerText = "High Perceived Academic Stress";
+        document.getElementById('mhRiskFactor').innerText = "High stress level";
       } else {
-        document.getElementById('mhRiskFactor').innerText = "Balanced Habit Baseline";
+        document.getElementById('mhRiskFactor').innerText = "No major risk factor detected";
       }
     }
 
@@ -2602,22 +2603,22 @@ severity_by_hour = df.groupby(['Hour', 'Severity']).size().unstack()`,
         </div>
 
         <div style="margin-bottom: 1.5rem;">
-          <h4 style="font-family: var(--font-heading); color: #38bdf8; margin-bottom: 0.4rem;">1. Problem & Domain Objective</h4>
+          <h4 style="font-family: var(--font-heading); color: #6db8d8; margin-bottom: 0.4rem;">1. Problem & Objective</h4>
           <p style="color: var(--text-muted); font-size: 0.92rem; line-height: 1.6;">${data.problem}</p>
         </div>
 
         <div style="margin-bottom: 1.5rem;">
-          <h4 style="font-family: var(--font-heading); color: #38bdf8; margin-bottom: 0.4rem;">2. System Architecture & Data Flow</h4>
-          <div class="code-block" style="color: #38bdf8;">${data.architecture}</div>
+          <h4 style="font-family: var(--font-heading); color: #6db8d8; margin-bottom: 0.4rem;">2. Architecture & Data Flow</h4>
+          <div class="code-block" style="color: #6db8d8;">${data.architecture}</div>
         </div>
 
         <div style="margin-bottom: 1.5rem;">
-          <h4 style="font-family: var(--font-heading); color: #38bdf8; margin-bottom: 0.4rem;">3. Statistical / Algorithmic Formulation</h4>
+          <h4 style="font-family: var(--font-heading); color: #6db8d8; margin-bottom: 0.4rem;">3. Key Logic & Formulas</h4>
           <div class="code-block" style="color: #fbbf24;">${data.math}</div>
         </div>
 
         <div style="margin-bottom: 1.5rem;">
-          <h4 style="font-family: var(--font-heading); color: #38bdf8; margin-bottom: 0.4rem;">4. Key Code Implementation Snippet</h4>
+          <h4 style="font-family: var(--font-heading); color: #6db8d8; margin-bottom: 0.4rem;">4. Code Implementation</h4>
           <pre class="code-block"><code>${escapeHtml(data.code)}</code></pre>
         </div>
 
@@ -2663,6 +2664,74 @@ severity_by_hour = df.groupby(['Hour', 'Severity']).size().unstack()`,
       calcAersSignal();
       calcMentalHealth();
     };
+
+    /* ==========================================================================
+       NAV ACTIVE STATE — smooth scroll spy + click lock (no jumping/dancing)
+       ========================================================================== */
+    (function() {
+      const navLinks = document.querySelectorAll('.nav-link');
+      const sections = [];
+      let isClickScrolling = false;
+      let scrollTimer = null;
+
+      // Build section list from nav hrefs
+      navLinks.forEach(link => {
+        const href = link.getAttribute('href');
+        if (href && href.startsWith('#')) {
+          const el = document.querySelector(href);
+          if (el) sections.push({ id: href.slice(1), el: el, link: link });
+        }
+      });
+
+      function setActive(id) {
+        navLinks.forEach(l => l.classList.remove('active'));
+        const match = sections.find(s => s.id === id);
+        if (match) match.link.classList.add('active');
+      }
+
+      // Click handler — immediately highlights target & locks scroll spy so intermediate tabs don't flash
+      navLinks.forEach(link => {
+        link.addEventListener('click', function(e) {
+          const href = this.getAttribute('href');
+          if (href && href.startsWith('#')) {
+            const targetId = href.slice(1);
+            setActive(targetId);
+            isClickScrolling = true;
+            clearTimeout(scrollTimer);
+
+            // Re-enable scroll spy after smooth scroll transition completes
+            scrollTimer = setTimeout(() => {
+              isClickScrolling = false;
+            }, 900);
+          }
+        });
+      });
+
+      // Scroll spy — updates smoothly during natural manual scrolling
+      function onScroll() {
+        if (isClickScrolling) return;
+
+        // Bottom of page detection (activates contact)
+        if ((window.innerHeight + window.scrollY) >= (document.documentElement.scrollHeight - 50)) {
+          if (sections.length > 0) {
+            setActive(sections[sections.length - 1].id);
+          }
+          return;
+        }
+
+        let current = sections[0] ? sections[0].id : '';
+        const scrollY = window.scrollY + 130; // offset for sticky navbar
+
+        for (const s of sections) {
+          if (s.el.offsetTop <= scrollY) {
+            current = s.id;
+          }
+        }
+        if (current) setActive(current);
+      }
+
+      window.addEventListener('scroll', onScroll, { passive: true });
+    })();
   </script>
 </body>
 </html>
